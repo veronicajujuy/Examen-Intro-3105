@@ -1,0 +1,35 @@
+  496  mv ../claseEnVivo.js .
+  497  mv claseEnVivo.js ../
+  498  cp ../claseEnVivo.js .
+  499  clear
+  500  mkdir  Examen-Valdez-Veronica
+  501  cd Examen-Valdez-Veronica/
+  502  mkdir Hobbies "Comidas Preferidas" "Programas de Tv Favoritos" "Comandos Utilizados"
+  503  cd Hobbies
+  504  touch 1.txt 2.txt 3.txt
+  505  cp * ../Comandos\ Utilizados/
+  506  cd ..
+  507  mv Comandos\ Utilizados/* "Comidas Preferidas"
+  508  cp Hobbies/1.txt 3.txt 2.txt Programas\ de\ Tv\ Favoritos/
+  509  cp Hobbies/2.txt Hobbies/3.txt Programas\ de\ Tv\ Favoritos/
+  510  touch Comandos\ Utilizados/command.txt
+  511  git push origin main
+  512  git init
+  513  git remote add origin https://github.com/veronicajujuy/Examen-Intro-3105.git
+  514  git remote -v
+  515  git add .
+  516  git status
+  517  git commit -m "Commit 1 - VeroValdez"
+  518  git log
+  519  git status
+  520  git push origin main
+  521  git branch hotfix
+  522  git branch
+  523  git switch hotfix 
+  524  git branch
+  525  ls -a
+  526  history
+  527  history 100
+  528  history 50
+  529  history 20
+  530  history > Comandos\ Utilizados/command.txt 
